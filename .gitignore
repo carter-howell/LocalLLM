@@ -1,0 +1,11 @@
+# This repository publishes only these reviewed showcase files.
+# Application code, models, generated outputs, and local data stay excluded.
+/*
+!/.gitignore
+!/README.md
+!/media/
+/media/*
+!/media/CREDITS.md
+!/media/desktop-dark.png
+!/media/desktop-light.png
+!/media/task-activity.png
