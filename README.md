@@ -61,27 +61,6 @@ Live checks have exercised speech synthesis, transcription, embeddings, classifi
 
 The screenshots in this repository show the actual application interface using empty or synthetic demonstration sessions. The task screenshot is a UI fixture, rather than evidence of a live model completing that task.
 
-## What I Learned
-
-This project gave me practice coordinating several AI runtimes behind one desktop interface. I worked through capability matching, background-process lifecycles, cancellation, model downloads, GPU memory constraints, and the difference between a model being installed and a task being supported.
-
-It also gave me experience keeping a growing application consistent across chats, projects, settings, media results, and tool workflows. A large part of the work has been simplifying navigation while preserving enough detail to debug failures and understand what happened.
-
-![LocalLLM light-mode home screen](media/desktop-light.png)
-
-## Ongoing Work
-
-- Improve image-edit consistency and video output quality across supported models
-- Expand compatible model-family adapters and hardware-specific performance checks
-- Continue simplifying settings, menus, and project workflows
-- Strengthen recovery and diagnostics for long-running local tasks
-
-## Repository
-
-This is a public project showcase containing documentation and screenshots only. The application source code is maintained privately. This repository does not distribute the application, model weights, personal conversations, generated media, or runtime configuration.
-
-Screenshot provenance is listed in [media/CREDITS.md](media/CREDITS.md).
-
 ## Portfolio
 
 Portfolio: [Carter Howell](https://wchowellarchive.web.app)
